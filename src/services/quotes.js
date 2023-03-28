@@ -1,4 +1,4 @@
-const QUOTE_RANDOM = 'http://api.quotable.io/random';
+const QUOTE_RANDOM = 'https://api.quotable.io/random';
 
 export const getRandomQuote = async ()=> {
     const res = await fetch(QUOTE_RANDOM)
